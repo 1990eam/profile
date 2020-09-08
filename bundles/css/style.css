@@ -231,7 +231,7 @@ nav ul ul li a {
     display: block;
 }
 
-/* Second, Third and more Tiers	
+/* Second, Third and more Tiers
  * We move the 2nd and 3rd etc tier dropdowns to the left
  * by the amount of the width of the first tier.
 */
@@ -397,8 +397,16 @@ nav ul {
 /* banner */
 
 .main-top {
-    background: url(../images/bg.jpg) no-repeat bottom;
+
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(../images/banner.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*hace que la imagen no se mueva al hacer scroll y queda mejor*/
+    background-attachment: fixed;
+
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -459,6 +467,14 @@ section.what_you {
     text-transform: capitalize;
     margin: 20px 0;
 }
+
+.about-me{
+
+  display: flex;
+
+}
+
+
 .s-icon {
     display: inline-block;
     width: 140px;
@@ -805,7 +821,7 @@ label {
 }
 
 @media(max-width: 1050px) {
-    
+
 }
 
 @media(max-width: 1024px) {
@@ -822,7 +838,7 @@ label {
         padding: 12em 5em 2em;
     }
 
-  
+
    h2.w3_head, h3.w3_head {
     font-size: 2em !important;
 }
@@ -896,7 +912,7 @@ p.main_p {
 .style-banner p {
     font-size: 1em !important;
 }
-   
+
 }
 
 @media(max-width: 640px) {}
@@ -960,8 +976,8 @@ h2.w3_head, h3.w3_head {
 }
 
 @media(max-width: 375px) {
-    
-	
+
+
 }
 
 @media(max-width: 320px) {
@@ -975,7 +991,7 @@ h2.w3_head, h3.w3_head {
     font-size: 1.5em !important;
 	}
 	.contact_grid_right button[type="submit"], .contact_grid_right button[type="reset"] {
-		
+
 		font-size: 15px !important;
 	}
 	ul.social_section_1info li {
