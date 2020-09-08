@@ -12,7 +12,7 @@ body {
     padding: 0;
     margin: 0;
     background: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body a {
@@ -68,8 +68,7 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Ubuntu', sans-serif;}
 
 p {
     margin: 0;
@@ -77,9 +76,8 @@ p {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.9;
-    color: #999;
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Ubuntu', sans-serif;
+  }
 
 ul,
 ol {
@@ -131,8 +129,8 @@ nav {
     color: #fff;
     font-weight: 100;
     text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
-    font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Ubuntu', sans-serif;
+  }
 
 nav.mnu {
     width: 50%;
@@ -180,8 +178,8 @@ nav a {
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
     -ms-transition: 0.5s all;
-   font-family: 'Roboto', sans-serif;
-}
+    font-family: 'Ubuntu', sans-serif;
+  }
 
 
 nav ul li ul li:hover {
@@ -468,9 +466,69 @@ section.what_you {
     margin: 20px 0;
 }
 
+/*ABOUT ME*/
+
 .about-me{
 
+  background-color: #162129;
+  color: #F2F2F2;
+
+}
+
+.about-me img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.about-me-wrapper {
+
   display: flex;
+  margin: 0 auto;
+
+}
+
+.about-me-description {
+  align-self: center;
+
+}
+
+.about-title {
+
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #F2F2F2;
+
+}
+
+/*SKILLS AND TOOLS*/
+
+.tech-icons-container{
+
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.skills-tools {
+
+  background-color: #f2f2f2;
+  color: #162129;
+  /*display: grid;*/
+  /*grid-template-rows: 50% 50%;*/
+}
+
+.skills-title {
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #162129;
+
+}
+
+.tech-icon {
+
+  height: 8rem;
+  padding: 1rem;
 
 }
 
