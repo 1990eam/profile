@@ -76,7 +76,6 @@ p {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 1.9;
-    color: #999;
     font-family: 'Ubuntu', sans-serif;
   }
 
@@ -472,7 +471,7 @@ section.what_you {
 .about-me{
 
   background-color: #162129;
-
+  color: #F2F2F2;
 
 }
 
@@ -493,13 +492,43 @@ section.what_you {
 
 }
 
-
-
-.section-title {
+.about-title {
 
   text-transform: uppercase;
   font-weight: lighter;
-  color: #fff;
+  color: #F2F2F2;
+
+}
+
+/*SKILLS AND TOOLS*/
+
+.tech-icons-container{
+
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.skills-tools {
+
+  background-color: #f2f2f2;
+  color: #162129;
+  /*display: grid;*/
+  /*grid-template-rows: 50% 50%;*/
+}
+
+.skills-title {
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #162129;
+
+}
+
+.tech-icon {
+
+  height: 8rem;
+  padding: 1rem;
 
 }
 
