@@ -1,6 +1,12 @@
-<html><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><style type="text/css" id="dark-mode-custom-style"></style><head>
+<html>
+
+  <head>
+
+  <link type="text/css" rel="stylesheet" id="dark-mode-general-link"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><style type="text/css" id="dark-mode-custom-style"></style>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Elián Magni's Profile Page</title>
 
 
@@ -34,12 +40,11 @@
   <!-- GitHub Calendar -->
   <script
   src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
-</script>
-<link
-rel="stylesheet"
-href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
-
+  </script>
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+  />
 </head>
 
 <body>
@@ -58,8 +63,8 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
           <ul class="menu mt-md-3">
             <li class="active"><a href="index.html" style="outline: none; cursor: inherit;">Home</a></li>
             <li><a href="#about" class="scroll" style="outline: none; cursor: inherit;">About me</a></li>
-            <li><a href="#services" class="scroll" style="outline: none; cursor: inherit;">Skills & Tools</a></li>
-            <li><a href="#features" class="scroll" style="outline: none; cursor: inherit;">Projects</a></li>
+            <li><a href="#skills-tools" class="scroll" style="outline: none; cursor: inherit;">Skills & Tools</a></li>
+            <li><a href="#projects" class="scroll" style="outline: none; cursor: inherit;">Projects</a></li>
             <li><a href="#contact" class="scroll" style="outline: none; cursor: inherit;">Contact me</a></li>
           </ul>
         </nav>
@@ -68,7 +73,7 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
 
 
     <!-- banner -->
-    <div class="main-w3pvt">
+  <div class="main-w3pvt">
       <div class="container-fluid">
        <div class="row">
         <div class="style-banner">
@@ -78,7 +83,7 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
        </div>
      </div>
    </div>
- </div>
+  </div>
  <!-- //banner -->
 </div>
 
@@ -99,7 +104,7 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
 </section>
 
 <!-- skills & tools -->
-<section class="skills-tools text-center">
+<section class="skills-tools text-center" id="skills-tools">
 	<div class="container">
     <h1 class="skills-title pb-3">Skills & tools</h1>
     <div class="tech-icons-container d-flex">
@@ -113,13 +118,14 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
       <img class="tech-icon" src="./bundles/images/techIcons/node-js.svg" alt="" data-toggle="tooltip" data-placement="top" title="Node-js">
       <img class="tech-icon" src="./bundles/images/techIcons/git.svg" alt="" data-toggle="tooltip" data-placement="top" title="Git Version Control">
       <img class="tech-icon" src="./bundles/images/techIcons/github.svg" alt="" data-toggle="tooltip" data-placement="top" title="GitHub">
+      <img class="tech-icon" src="./bundles/images/techIcons/heroku.svg" alt="" data-toggle="tooltip" data-placement="top" title="Heroku">
     </div>
   </div>
 </section>
 
 
 <!-- projects -->
-<section class="projects text-center">
+<section class="projects text-center" id="projects">
 	<div class="container pb-3">
 
     <h1 class="project-title py-1 text-center">Projects</h1>
@@ -175,7 +181,7 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
 </section>
 
 <!-- contact -->
-<section class="contact text-center">
+<section class="contact text-center" id="contact">
   <div class="container">
     <h1 class="contact-title">Let's get in touch</h1>
 
@@ -195,10 +201,15 @@ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.c
   </div>
 </section>
 
+<!-- scroll to top button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i></i>Scroll up</button>
 
-<!-- //footer -->
 
+<!-- github calendar -->
 <script src="./bundles/javascript/github-calendar.js"></script>
+
+<!-- scroll to top button-->
+<script src="./bundles/javascript/scroll_to_top.js"></script>
 
 
 </body>
