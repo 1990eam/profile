@@ -11,7 +11,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background: #fff;
+    background: #f2f2f2;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -514,8 +514,6 @@ section.what_you {
 
   background-color: #f2f2f2;
   color: #162129;
-  /*display: grid;*/
-  /*grid-template-rows: 50% 50%;*/
 }
 
 .skills-title {
@@ -587,6 +585,39 @@ section.what_you {
 
 /*CONTACT*/
 
+.contact {
+
+  background-color: #f2f2f2;
+  color: #162129;
+
+}
+
+
+.contact-title {
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #162129;
+
+}
+
+.socials{
+  list-style-type: none;
+  justify-content: center;
+}
+
+.socials li{
+  font-size: 4rem;
+}
+
+.social-icon {
+  color: #d8d8d8;
+  height: 8rem;
+}
+
+.social-icon:hover{
+  transition: 0.5s;
+  color: black;
+}
 
 .s-icon {
     display: inline-block;
@@ -856,22 +887,8 @@ label {
 	letter-spacing: 0.5px;
 }
 
-/* //contact */
 
-/* contact */
 
-.form-control {
-	background-color: #e2e2e2;
-	border: none;
-}
-
-.map iframe {
-	width: 100%;
-	border: 7px solid #e4e4e4;
-	min-height: 500px;
-}
-
-/* //contact */
 /* responsive */
 
 @media(max-width: 1680px) {}
