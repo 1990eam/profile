@@ -7,5 +7,5 @@
 new GitHubCalendar(".calendar", "1990eam", {
 
     responsive: true,
-    tooltips: true
+    tooltips: true,
 });
