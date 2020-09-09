@@ -475,7 +475,7 @@ section.what_you {
 
 }
 
-.about-me img {
+.about-me-pic {
   height: 250px;
   border-radius: 50%;
 }
@@ -484,6 +484,7 @@ section.what_you {
 
   display: flex;
   margin: 0 auto;
+  width: 50%;
 
 }
 
@@ -1140,6 +1141,17 @@ h2.w3_head, h3.w3_head {
     .style-banner {
         padding: 8em 2em 2em;
 }
+
+.about-me-wrapper {
+
+  flex-direction: column;
+}
+
+.about-me-pic {
+  width: 100%;
+  height: auto;
+}
+
 }
 @media(max-width: 384px) {
     .style-banner h1 {
