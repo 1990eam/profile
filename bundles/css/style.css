@@ -11,7 +11,7 @@ html {
 body {
     padding: 0;
     margin: 0;
-    background: #fff;
+    background: #f2f2f2;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -514,8 +514,6 @@ section.what_you {
 
   background-color: #f2f2f2;
   color: #162129;
-  /*display: grid;*/
-  /*grid-template-rows: 50% 50%;*/
 }
 
 .skills-title {
@@ -548,6 +546,131 @@ section.what_you {
   color: #F2F2F2;
 
 }
+
+.project-container {
+  position: relative;
+}
+
+.project-container:hover img {
+  opacity: 0.3;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+
+.hover-button {
+
+  width: 80%;
+
+}
+
+.project-container:hover .hovers{
+  opacity: 1;
+  z-index: 999;
+
+}
+
+
+.hovers{
+  width: 80%;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+
+}
+
+/*CONTACT*/
+
+.contact {
+
+  background-color: #f2f2f2;
+  color: #162129;
+
+}
+
+
+.contact-title {
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: #162129;
+
+}
+
+.socials{
+  list-style-type: none;
+  justify-content: center;
+}
+
+.socials li{
+  font-size: 4rem;
+}
+
+.social-icon {
+  color: #d8d8d8;
+  height: 8rem;
+}
+
+.social-icon:hover{
+  transition: 0.5s;
+  color: black;
+}
+
+
+/*scroll to top button*/
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  opacity: 0.8;
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .s-icon {
@@ -818,22 +941,8 @@ label {
 	letter-spacing: 0.5px;
 }
 
-/* //contact */
 
-/* contact */
 
-.form-control {
-	background-color: #e2e2e2;
-	border: none;
-}
-
-.map iframe {
-	width: 100%;
-	border: 7px solid #e4e4e4;
-	min-height: 500px;
-}
-
-/* //contact */
 /* responsive */
 
 @media(max-width: 1680px) {}
