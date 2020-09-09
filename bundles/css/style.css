@@ -483,8 +483,10 @@ section.what_you {
 .about-me-wrapper {
 
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 0 auto;
-  width: 50%;
+  width: 55%;
 
 }
 
@@ -1138,19 +1140,24 @@ h2.w3_head, h3.w3_head {
         padding: .2rem 1rem;
     }
 
-    .style-banner {
-        padding: 8em 2em 2em;
-}
-
 .about-me-wrapper {
 
-  flex-direction: column;
+  flex-direction: column !important;
+  margin: 0;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
 }
 
 .about-me-pic {
   width: 100%;
   height: auto;
 }
+
+
+    .style-banner {
+        padding: 8em 2em 2em;
+}
+
 
 }
 @media(max-width: 384px) {
@@ -1165,10 +1172,6 @@ h2.w3_head, h3.w3_head {
         font-size: 14px !important;
         letter-spacing: 1px;
     }
-   .contact_grid_right button[type="submit"], .contact_grid_right button[type="reset"] {
-		padding: 14px 26px;
-		font-size: 15px!important;
-   }
 }
 
 @media(max-width: 375px) {
@@ -1186,21 +1189,11 @@ h2.w3_head, h3.w3_head {
     .augue h4, .diam h4 {
     font-size: 1.5em !important;
 	}
-	.contact_grid_right button[type="submit"], .contact_grid_right button[type="reset"] {
 
-		font-size: 15px !important;
-	}
 	ul.social_section_1info li {
 		margin-right: 16px;
 	}
 	.style-banner {
 		padding: 7em 1em 2em;
 	}
-   .contact_grid_right button[type="submit"], .contact_grid_right button[type="reset"] {
-		padding: 12px 18px;
-		font-size: 13px!important;
-		letter-spacing: 1px;
-   }
 }
-
-/* //responsive */
