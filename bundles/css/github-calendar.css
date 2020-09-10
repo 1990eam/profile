@@ -46,6 +46,7 @@
 }
 
 .contrib-column {
+    color: white;
     padding: 15px 0;
     text-align: center;
     border-left: 1px solid #ddd;
@@ -70,7 +71,7 @@
     line-height: 1.3em;
     font-size: 24px;
     display: block;
-    color: #333;
+    color: #fff;
 }
 
 .calendar img.spinner {
@@ -102,7 +103,7 @@
 .left.text-muted {
     float: left;
     margin-left: 9px;
-    color: #767676;
+    color: #fff;
 }
 .left.text-muted a {
     color: #4078c0;
