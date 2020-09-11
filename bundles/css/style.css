@@ -1143,7 +1143,7 @@ h2.w3_head, h3.w3_head {
 .about-me-wrapper {
 
   flex-direction: column !important;
-  margin: 0;
+   min-inline-size: fit-content !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
 }
@@ -1171,6 +1171,14 @@ h2.w3_head, h3.w3_head {
     .navbar-light .navbar-nav .nav-link {
         font-size: 14px !important;
         letter-spacing: 1px;
+    }
+
+    .about-me-wrapper {
+
+      flex-direction: column !important;
+       min-inline-size: fit-content !important;
+      flex-wrap: wrap !important;
+      justify-content: center !important;
     }
 }
 
