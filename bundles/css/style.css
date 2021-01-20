@@ -467,6 +467,9 @@ section.what_you {
 }
 
 /*ABOUT ME*/
+.cv-link a{
+  font-weight: bolder;
+}
 
 .about-me{
 
