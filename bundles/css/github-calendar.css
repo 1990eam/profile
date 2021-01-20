@@ -1,3 +1,11 @@
+:root {
+  --color-calendar-graph-day-bg: #233542;
+  --color-calendar-graph-day-L1-bg: #39dd34;
+  --color-calendar-graph-day-L2-bg: #45a045;
+  --color-calendar-graph-day-L3-bg: #047526;
+  --color-calendar-graph-day-L4-bg: #0a4208;
+}
+
 .calendar {
     font-family: Helvetica, arial;
     border: 1px solid #DDDDDD;
@@ -46,6 +54,7 @@
 }
 
 .contrib-column {
+    color: white;
     padding: 15px 0;
     text-align: center;
     border-left: 1px solid #ddd;
@@ -70,7 +79,7 @@
     line-height: 1.3em;
     font-size: 24px;
     display: block;
-    color: #333;
+    color: #fff;
 }
 
 .calendar img.spinner {
@@ -102,7 +111,7 @@
 .left.text-muted {
     float: left;
     margin-left: 9px;
-    color: #767676;
+    color: #fff;
 }
 .left.text-muted a {
     color: #4078c0;
